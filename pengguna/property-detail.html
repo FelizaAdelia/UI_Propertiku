@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Propertiku</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Inter:wght@700;800&display=swap" rel="stylesheet">
+    
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container-xxl bg-white p-0">
+        <!-- Spinner Start -->
+        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+                <span class="sr-only">Memuat...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+
+        <!-- Navbar Start -->
+        <div class="container-fluid nav-bar bg-transparent">
+            <nav class="navbar navbar-expand-lg bg-white navbar-light py-0 px-4">
+                <a href="index.html" class="navbar-brand d-flex align-items-center text-center">
+                    <div class="icon p-2 me-2">
+                        <img class="img-fluid" src="img/icon-deal.png" alt="Icon" style="width: 30px; height: 30px;">
+                    </div>
+                    <h1 class="m-0 text-primary">Propertiku</h1>
+                </a>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav ms-auto">
+                        <a href="index.html" class="nav-item nav-link">Beranda</a>
+                        <a href="about.html" class="nav-item nav-link">Tentang</a>
+                        <a href="property.html" class="nav-item nav-link">Properti</a>
+                        <a href="artikel.html" class="nav-item nav-link">Artikel</a>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Lainnya</a>
+                            <div class="dropdown-menu rounded-0 m-0">
+                                <a href="favorit.html" class="dropdown-item">Favorit</a>
+                                <a href="riwayat.html" class="dropdown-item">Riwayat</a>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="" class="btn btn-primary px-3 d-none d-lg-flex">Logout</a>
+                </div>
+            </nav>
+        </div>
+        <!-- Navbar End -->
+
+        <div class="container-xxl py-5 d-flex flex-column align-items-center">
+            <div class="mx-auto mb-6 wow fadeInUp text-center" data-wow-delay="0.1s" style="max-width: auto-width;">
+                <h1 class="mb-3">Apartemen The Vertu</h1>
+                <h5 class="mb-3">Dukuh Pakis, Surabaya</h5>
+            </div>
+            <div class="row wow fadeInUp d-flex justify-content-between align-items-center" data-wow-delay="0.1s" style="width: 350px;">
+                <div class="col-lg-4 col-md-6 d-flex justify-content-center">
+                    <p><i class="fa fa-ruler-combined text-primary me-2"></i>30 M2</p>
+                </div>
+                <div class="col-lg-4 col-md-6 d-flex justify-content-center">
+                    <p><i class="fa fa-bed text-primary me-2"></i>1 KT</p>
+                </div>
+                <div class="col-lg-4 col-md-6 d-flex justify-content-center">
+                    <p><i class="fa fa-bath text-primary me-2"></i>1 KM</p>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row wow fadeIn text-center" data-wow-delay="0.1s" style="width: 100%;">
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="gallery-item">
+                            <img class="img-fluid rounded" src="img/property-1.jpg" alt="Property 1">
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="gallery-item">
+                            <img class="img-fluid rounded" src="img/property-2.jpg" alt="Property 2">
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="gallery-item">
+                            <img class="img-fluid rounded" src="img/property-3.jpg" alt="Property 3">
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="gallery-item">
+                            <img class="img-fluid rounded" src="img/property-4.jpg" alt="Property 4">
+                            <div class="overlay">
+                                <div class="overlay-text">Lihat Lebih Banyak</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>            
+
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div class="text-start mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: auto-width; ">
+                    <h3>Deskripsi</h3>
+                    <p>Apartemen The Vertu ini sangat cocok sebagai tempat menginap Anda selama berlibur di Kota Surabaya dengan lokasinya yang strategis dekat dari pusat kota. Apartemen ini menawarkan tempat tinggal yang nyaman dan praktis dengan berbagai fasilitas untuk memastikan pengalaman menginap yang menyenangkan. Dengan lokasi yang nyaman dan berbagai fasilitas, Apartemen The Vertu menawarkan pengalaman menginap yang nyaman dan menyenangkan bagi tamunya. Hubungi kami sekarang untuk informasi lebih lanjut dan pemesanan!</p>
+                    <h3>Fasilitas</h3>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-4 col-md-6">
+                                <p><i class="fa fa-check text-primary me-3"></i>24-Hours Room Service</p>
+                            </div>
+                            <div class="col-lg-4 col-md-6">
+                                <p><i class="fa fa-check text-primary me-3"></i>CCTV In Public Area</p>
+                            </div>
+                            <div class="col-lg-4 col-md-6">
+                                <p><i class="fa fa-check text-primary me-3"></i>Desk & Chair</p>
+                            </div>
+                            <div class="col-lg-4 col-md-6">
+                                <p><i class="fa fa-check text-primary me-3"></i>WI-Fi In Room</p>
+                            </div>
+                            <div class="col-lg-4 col-md-6">
+                                <p><i class="fa fa-check text-primary me-3"></i>Air Conditioner (AC)</p>
+                            </div>
+                            <div class="col-lg-4 col-md-6">
+                                <p><i class="fa fa-check text-primary me-3"></i>Cable TV</p>
+                            </div>
+                            <div class="col-lg-4 col-md-6">
+                                <p><i class="fa fa-check text-primary me-3"></i>Water Heater</p>
+                            </div>
+                            <div class="col-lg-4 col-md-6">
+                                <p><i class="fa fa-check text-primary me-3"></i>Electric Kettle</p>
+                            </div>
+                            <div class="col-lg-4 col-md-6">
+                                <p><i class="fa fa-check text-primary me-3"></i>Telephone</p>
+                            </div>
+                        </div>
+                    </div>
+                    <br><br>
+                    <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="testimonial-item bg-light rounded p-3">
+                            <div class="bg-white border rounded p-4">
+                                <p>Apartemen The Vertu sangat nyaman dan strategis, memudahkan akses ke pusat kota dan menawarkan fasilitas lengkap yang membuat pengalaman menginap kami sangat menyenangkan.</p>
+                                <div class="d-flex align-items-center">
+                                    <div class="ps-3">
+                                        <h6 class="fw-bold mb-1">Maya Pratiwi</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="testimonial-item bg-light rounded p-3">
+                            <div class="bg-white border rounded p-4">
+                                <p>Menginap di Apartemen The Vertu adalah pilihan terbaik; lokasinya yang strategis dan fasilitas yang luar biasa membuat liburan kami di Surabaya sangat menyenangkan dan praktis.</p>
+                                <div class="d-flex align-items-center">
+                                    <div class="ps-3">
+                                        <h6 class="fw-bold mb-1">Rudi Santoso</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="testimonial-item bg-light rounded p-3">
+                            <div class="bg-white border rounded p-4">
+                                <p>Apartemen The Vertu menawarkan kenyamanan dan kemudahan dengan lokasi strategis dekat pusat kota dan fasilitas lengkap, membuat liburan kami di Surabaya sangat memuaskan.</p>
+                                <div class="d-flex align-items-center">
+                                    <div class="ps-3">
+                                        <h6 class="fw-bold mb-1">Alina Kusuma</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br><br>
+                    <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                        <button type="button" class="btn btn-primary" onclick="window.location.href='favorit.html'">Tambah ke Favorit</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h3>Pemesanan</h3>
+                        <br>
+                        <!-- Nav tabs -->
+                        <ul class="nav nav-tabs" id="myTab" role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link active" id="data-diri-tab" data-bs-toggle="tab" data-bs-target="#data-diri" type="button" role="tab" aria-controls="data-diri" aria-selected="true">Data Diri</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="pembayaran-tab" data-bs-toggle="tab" data-bs-target="#pembayaran" type="button" role="tab" aria-controls="pembayaran" aria-selected="false">Pembayaran</button>
+                            </li>
+                        </ul>
+                        <!-- Tab content -->
+                        <div class="tab-content pt-3" id="myTabContent">
+                            <!-- Data Diri Tab -->
+                            <div class="tab-pane fade show active" id="data-diri" role="tabpanel" aria-labelledby="data-diri-tab">
+                                <form>
+                                    <div class="mb-3">
+                                        <label for="nama" class="form-label">Nama Pemesan</label>
+                                        <input type="text" class="form-control" id="nama" placeholder="Masukkan Nama Pemesan">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="email" class="form-label">Email</label>
+                                        <input type="email" class="form-control" id="email" placeholder="Masukkan Email">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="no-telp" class="form-label">No Telp</label>
+                                        <input type="tel" class="form-control" id="no-telp" placeholder="Masukkan No Telp">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="kewarganegaraan" class="form-label">Kewarganegaraan</label>
+                                        <select class="form-select" id="kewarganegaraan">
+                                            <option selected>Pilih Kewarganegaraan</option>
+                                            <option value="wni">WNI</option>
+                                            <option value="wna">WNA</option>
+                                        </select>
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="pemesan-untuk" class="form-label">Pemesanan Untuk</label>
+                                        <select class="form-select" id="pemesan-untuk">
+                                            <option selected>Pilih</option>
+                                            <option value="diri-sendiri">Diri Sendiri</option>
+                                            <option value="orang-lain">Orang Lain</option>
+                                        </select>
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="nama-tamu" class="form-label">Nama Tamu</label>
+                                        <input type="text" class="form-control" id="nama-tamu" placeholder="Masukkan Nama Tamu">
+                                    </div>
+                                </form>
+                            </div>
+                            <!-- Pembayaran Tab -->
+                            <div class="tab-pane fade" id="pembayaran" role="tabpanel" aria-labelledby="pembayaran-tab">
+                                <form>
+                                    <div class="mb-3">
+                                        <label for="durasi" class="form-label">Durasi</label>
+                                        <p class="form-control border-0 py-3">1 Tahun</p>
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="check-in" class="form-label">Tanggal Check In</label>
+                                        <input type="date" class="form-control border-0 py-3" id="check-in">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="rencana-pembayaran" class="form-label">Rencana Pembayaran</label>
+                                        <select class="form-select border-0 py-3" id="rencana-pembayaran">
+                                            <option selected>Pilih Rencana Pembayaran</option>
+                                            <option value="1">Bayar penuh</option>
+                                            <option value="2">2x bayar (per 6 bulan)</option>
+                                            <option value="3">3x bayar (per 4 bulan)</option>
+                                            <option value="4">4x bayar (per 3 bulan)</option>
+                                            <option value="5">6x bayar (per 2 bulan)</option>
+                                        </select>
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="pembayaran-dengan" class="form-label">Pembayaran Dengan</label>
+                                        <select class="form-select" id="pembayaran-dengan">
+                                            <option selected>Pilih Metode Pembayaran</option>
+                                            <option value="virtual-acc">Virtual Account Billing</option>
+                                            <option value="qris">QRIS</option>
+                                        </select>
+                                    </div>
+                                    <div class="mb-3 form-check">
+                                        <input type="checkbox" class="form-check-input" id="agree">
+                                        <label class="form-check-label" for="agree">By continuing to the next step, you are agreeing to these house rules and privacy policy</label>
+                                    </div>
+                                    <div class="text-center">
+                                        <button type="button" class="btn btn-primary" onclick="window.location.href='pembayaran.html'">Pesan</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Footer Start -->
+        <div class="container-fluid bg-dark text-white-50 footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
+            <div class="container py-5">
+                <div class="row g-5">            
+                    <div class="col-lg-4 col-md-4">
+                        <h5 class="text-white mb-4">Tautan Cepat</h5>
+                        <a class="btn btn-link text-white-50" href="">Beranda</a>
+                        <a class="btn btn-link text-white-50" href="">Tentang</a>
+                        <a class="btn btn-link text-white-50" href="">Properti</a>
+                        <a class="btn btn-link text-white-50" href="">Artikel</a>
+                    </div>       
+                    <div class="col-lg-4 col-md-4">
+                        <h5 class="text-white mb-4">Hubungi Kami</h5>
+                        <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Airlangga No. 123, Surabaya</p>
+                        <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+012 345 67890</p>
+                        <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@propertiku.com</p>
+                        <div class="d-flex pt-2">
+                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
+                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4">
+                        <h5 class="text-white mb-4">Berlangganan</h5>
+                        <p>Dapatkan info terbaru dari Propertiku.</p>
+                        <div class="position-relative mx-auto" style="max-width: 400px;">
+                            <input class="form-control bg-transparent w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
+                            <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">Kirim</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="copyright">
+                    <div class="row">
+                        <div class="col-md-12 text-center mb-3 mb-md-0">
+                            &copy; <a class="border-bottom" href="#">Propertiku</a> 2024, All Right Reserved.</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+    </div>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
